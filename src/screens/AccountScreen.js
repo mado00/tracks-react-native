@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { StyleSheet, Text } from 'react-native';
+import { View, StyleSheet, Text } from 'react-native';
 import { Button } from 'react-native-elements';
 import { SafeAreaView } from 'react-navigation';
 import Spacer from '../components/Spacer';
@@ -24,6 +24,5 @@ AccountScreen.navigationOptions = {
   tabBarIcon: <FontAwesome name="gear" size={20} />
 };
 
-const styles = StyleSheet.create({});
 
 export default AccountScreen;
